@@ -8,10 +8,10 @@
 
 import UIKit
 
-protocol AlertControllerDelegate {
-    func uponPressingOkay()
-    func uponPressingDecline()
-    func uponPressingAccept()
+@objc protocol AlertControllerDelegate {
+    @objc func uponPressingOkay()
+    @objc func uponPressingDecline()
+    @objc func uponPressingAccept()
 }
 
 class CustomAlertView: UIView , Modal {
