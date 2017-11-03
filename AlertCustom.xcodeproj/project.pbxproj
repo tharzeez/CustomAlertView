@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0CB1911FAC9A2000FC01B0 /* AlertViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0CB1901FAC9A2000FC01B0 /* AlertViewConstants.swift */; };
 		2B32CDFE1FA1FC73008DD7EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B32CDFD1FA1FC73008DD7EE /* AppDelegate.swift */; };
 		2B32CE001FA1FC73008DD7EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B32CDFF1FA1FC73008DD7EE /* ViewController.swift */; };
 		2B32CE031FA1FC73008DD7EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B32CE011FA1FC73008DD7EE /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B0CB1901FAC9A2000FC01B0 /* AlertViewConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewConstants.swift; sourceTree = "<group>"; };
 		2B32CDFA1FA1FC73008DD7EE /* AlertCustom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertCustom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B32CDFD1FA1FC73008DD7EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B32CDFF1FA1FC73008DD7EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				2B32CE2D1FA1FCB4008DD7EE /* CustomAlertView.xib */,
 				2B32CE2F1FA2002C008DD7EE /* CustomAlertView.swift */,
 				2B32CE331FA20B8E008DD7EE /* AlertProtocol.swift */,
+				2B0CB1901FAC9A2000FC01B0 /* AlertViewConstants.swift */,
 				2B32CE011FA1FC73008DD7EE /* Main.storyboard */,
 				2B32CE041FA1FC73008DD7EE /* Assets.xcassets */,
 				2B32CE061FA1FC73008DD7EE /* LaunchScreen.storyboard */,
@@ -271,6 +274,7 @@
 			files = (
 				2B32CE341FA20B8E008DD7EE /* AlertProtocol.swift in Sources */,
 				2B32CE301FA2002C008DD7EE /* CustomAlertView.swift in Sources */,
+				2B0CB1911FAC9A2000FC01B0 /* AlertViewConstants.swift in Sources */,
 				2B32CE001FA1FC73008DD7EE /* ViewController.swift in Sources */,
 				2B32CDFE1FA1FC73008DD7EE /* AppDelegate.swift in Sources */,
 			);

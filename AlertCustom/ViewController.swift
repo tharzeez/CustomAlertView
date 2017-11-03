@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,7 +23,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func tapToShowAlert(_ sender: UIButton) {
-        let alert = CustomAlertView(title: "Success", message: "It is working", fromViewController: self, alertType: 1)
+        let _ = CustomAlertView(title: "Success", message: "It is working", fromViewController: self, alertType: 1)
+        let alert = CustomAlertView(title: "Woaaah", message: "Woaah", fromViewController: self, alertType: 1, alertStyle: AlertStyle.okAlert)
         alert.show()
     }
     
